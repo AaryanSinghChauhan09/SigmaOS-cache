@@ -8,6 +8,9 @@
 
 /// Errors raised by this component.
 pub mod sigmacachemanager2;
+
+/// System cache daemon module.
+pub mod sigmacache;
 #[derive(Debug, thiserror::Error)]
 pub enum ComponentError {
     /// The requested operation is not supported by this component yet.
